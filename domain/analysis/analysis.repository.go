@@ -11,5 +11,5 @@ func CreateWinner(ctx *gofr.Context, data string) (result interface{}, err error
 	// 	ctx.Logger.Infof("[PREPARED STATEMENT] : %s", prepared_statement)
 	// 	ctx.Logger.Errorf("[CREATE WINNER PG] Error: %s", err)
 	// }
-	// return
+	return
 }
